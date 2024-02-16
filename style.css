@@ -1,0 +1,65 @@
+#app{
+  width: 100%;
+  height: 100%;
+  background-color:#f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Slots Style  */
+.slots {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: pink;
+  border-radius: 30px;
+}
+
+/* REEL styles class */
+.reel {
+  width: 89px;
+  height: 200px;
+  background-color:#fff ;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 0 10px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+#buttons-div {
+  display:flex; 
+ 
+}
+
+#enter {
+  font-family: "Bebas Neue";
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  background-color: pink;
+  cursor: pointer;
+  border: none;
+}
+
+#buttons-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.btn-div {
+  margin-right: 15px;
+}
+
+.btn-div.selected {
+  margin-right: 40px;
+}
